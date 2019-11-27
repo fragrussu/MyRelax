@@ -10,8 +10,11 @@ Gettins MyRelax is extremely easy.
 ```
 git clone https://github.com/fragrussu/MyRelax.git 
 ```
-2. MyRelax scripts are in: 
+2. This will download MyRelax to the `./MyRelax` folder. MyRelax scripts are in: 
 ```
-MyRelax/myrelax.
+./MyRelax/myrelax
 ```
-3. You should now be able to use the code. Try to print the gelp of `getMTV.py`
+3. You should now be able to use the code. Try to print the manual of `getMTV.py` to make sure:
+```
+python ./MyRelax/myrelax/getMTV.py --help
+```
