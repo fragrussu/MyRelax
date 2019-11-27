@@ -11,10 +11,10 @@ You will need a Python 3 distribution such as [Anaconda](http://www.anaconda.com
 * [Scikit-learn](http://scikit-learn.org/stable)
 
 
-# Installation
+# Installation (Linux and MacOS)
 Gettins MyRelax is extremely easy.
 
-1. Clone this repository:
+1. Open a terminal and clone this repository:
 ```
 git clone https://github.com/fragrussu/MyRelax.git 
 ```
@@ -26,3 +26,9 @@ git clone https://github.com/fragrussu/MyRelax.git
 ```
 python ./MyRelax/myrelax/getMTV.py --help
 ```
+
+# If you use MyRelax
+If you use MyRelax, please cite this paper:
+
+# License
+MyRelax is distributed under the BSD-2-Clause License. Copyright University College London, 2019.
