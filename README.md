@@ -4,7 +4,7 @@
 MyRelax tools process MRI scans in NIFTI format, as well as other MRI sequence parameters that are passed in the form of text files. These can be readily obtained from DICOM fields or from the JSON files associated to NIFTIs when the Brain Imaging Data Structure is adopted ([BIDS](http://bids.neuroimaging.io)).
 
 # MyRelax: dependencies
-You will need a Python 3 distribution such as [Anaconda](http://www.anaconda.com/distribution) as well as the following third party modules/packages:
+To run MyRelax you need a Python 3 distribution such as [Anaconda](http://www.anaconda.com/distribution). Additionally, you need the following third party modules/packages:
 * [SciPy](http://www.scipy.org)
 * [NumPy](https://numpy.org)
 * [Nibabel](http://nipy.org/nibabel)
@@ -24,7 +24,7 @@ git clone https://github.com/fragrussu/MyRelax.git
 ```
 ./MyRelax/myrelax
 ```
-5. You should now be able to use the code. Try to print the manual of `getMTV.py` to make sure:
+5. You should now be able to use the code. Try to print the manual of a script, for instance of `getMTV.py`, to make sure this is really the case:
 ```
 python ./MyRelax/myrelax/getMTV.py --help
 ```
@@ -51,7 +51,7 @@ python </PATH/TO/SCRIPT> --help
 (for example, `python ./MyRelax/myrelax/getMTR.py --help`).
 
 # If you use MyRelax
-If in your research you use MyRelax, please make sure to cite this paper:
+If for your research you use MyRelax, please remember to cite this paper to acknowledge our work:
 
 # License
 MyRelax is distributed under the BSD 2-Clause License, Copyright (c) 2019, University College London. All rights reserved.
