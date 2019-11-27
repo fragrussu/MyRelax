@@ -46,7 +46,7 @@ The following command line scripts are available:
 
 Each script has a manual. To print it, simply do
 ```
-python <PATH/TO/SCRIPT> --help
+python </PATH/TO/SCRIPT> --help
 ```
 (for example, `python ./MyRelax/myrelax/getMTR.py --help`).
 
