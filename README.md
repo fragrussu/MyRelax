@@ -30,21 +30,21 @@ python ./MyRelax/myrelax/getMTV.py --help
 ```
 
 # MyRelax tools
-The following command line scripts are available:
-* `getB1AFI.py`: calculate a B1 map with the Actual Flip Angle Imaging method;
-* `getB1DAGE.py`: calculate a B1 map with the Double Angle method (gradient echo readout);
-* `getB1DASE.py`: calculate a B1 map with the Double Angle method (spin echo readout);
-* `getGratio.py`: calculate a weighted g-ratio map combining indices of myelin and axonal fraction;
-* `getJSONField.py`: extract values from a JSON file in NIFTI-JSON [BIDS](http://bids.neuroimaging.io) pairs;
-* `getMTR.py`: calculate the magnetisation transfer ratio;
-* `getMTV.py`: calculate the macromolecular tissue volume with the method of the pseudo-proton densities;
-* `getT1IR.py`: fit a mono-exponential inversion recovery model to magnitude MRI data to estimate T1;
-* `getT1VFA.py`: fit a mono-exponential variable flip angle model to magnitude MRI data to estimate T1;
-* `getT2Prime.py`: calculate T2' from T2 and T2*;
-* `getT2T2star.py`: fit a mono-exponential decay model to magnitude MRI data to estimate T2 (T2*);
-* `getT2T2starBiexp.py`: fit a bi-exponential decay model to magnitude MRI data to estimate two T2 (or T2*) constants and a signal fraction.
+The following command line scripts are available.
+* `getB1AFI.py`: to calculate a B1 map with the Actual Flip Angle Imaging method;
+* `getB1DAGE.py`: to calculate a B1 map with the Double Angle method (gradient echo readout);
+* `getB1DASE.py`: to calculate a B1 map with the Double Angle method (spin echo readout);
+* `getGratio.py`: to calculate a weighted g-ratio map combining indices of myelin and axonal fraction;
+* `getJSONField.py`: to extract the value of a field of interest from a JSON file (useful to create text files for fitting routines);
+* `getMTR.py`: to calculate the magnetisation transfer ratio;
+* `getMTV.py`: to calculate the macromolecular tissue volume with the method of the pseudo-proton densities;
+* `getT1IR.py`: to fit a mono-exponential inversion recovery model to magnitude MRI data to estimate T1;
+* `getT1VFA.py`: to fit a mono-exponential variable flip angle model to magnitude MRI data to estimate T1;
+* `getT2Prime.py`: to calculate T2' from T2 and T2*;
+* `getT2T2star.py`: to fit a mono-exponential decay model to magnitude MRI data to estimate T2 (T2*);
+* `getT2T2starBiexp.py`: to fit a bi-exponential decay model to magnitude MRI data to estimate two T2 (or T2*) constants and a signal fraction.
 
-Each script has a manual. To print it, simply do
+Each script has a manual. To print it, simply type in your temrinal
 ```
 python </PATH/TO/SCRIPT> --help
 ```
