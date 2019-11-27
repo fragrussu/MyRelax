@@ -35,3 +35,8 @@ If in your research you use MyRelax, please make sure to cite this paper:
 # License
 MyRelax is distributed under the BSD 2-Clause License, Copyright (c) 2019, University College London. All rights reserved.
 Link to license [here](http://github.com/fragrussu/MyRelax/blob/master/LICENSE).
+
+# Acknowledgements
+MyRelax was developed as part of the [CDS-QuaMRI project](http://cds-quamri.eu), funded under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 634541.
+![CDSQuaMRI](http://github.com/fragrussu/MyRelax/blob/master/cdsquamri_logo.png)
+
