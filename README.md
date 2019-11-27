@@ -38,11 +38,11 @@ The following command line scripts are available.
 * `getJSONField.py`: to extract the value of a field of interest from a JSON file (useful to create text files for fitting routines);
 * `getMTR.py`: to calculate the magnetisation transfer ratio;
 * `getMTV.py`: to calculate the macromolecular tissue volume with the method of the pseudo-proton densities;
-* `getT1IR.py`: to fit a mono-exponential inversion recovery model to magnitude MRI data to estimate T1;
-* `getT1VFA.py`: to fit a mono-exponential variable flip angle model to magnitude MRI data to estimate T1;
+* `getT1IR.py`: to fit a mono-exponential inversion recovery model to magnitude MRI data for T1 estimation;
+* `getT1VFA.py`: to fit a mono-exponential variable flip angle model to magnitude MRI data for T1 estimation;
 * `getT2Prime.py`: to calculate T2' from T2 and T2*;
-* `getT2T2star.py`: to fit a mono-exponential decay model to magnitude MRI data to estimate T2 (T2*);
-* `getT2T2starBiexp.py`: to fit a bi-exponential decay model to magnitude MRI data to estimate two T2 (or T2*) constants and a signal fraction.
+* `getT2T2star.py`: to fit a mono-exponential decay model to magnitude MRI data for T2 (T2*) estimation;
+* `getT2T2starBiexp.py`: to fit a bi-exponential decay model to magnitude MRI data, obtaining estimates of 2 distinct T2 (or T2*) constants and of their relative signal fractions.
 
 Each script has a manual. To print it, simply type in your terminal
 ```
