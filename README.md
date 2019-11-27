@@ -35,7 +35,7 @@ The following command line scripts are available:
 * `getB1DAGE.py`: calculate a B1 map with the Double Angle method (gradient echo readout);
 * `getB1DASE.py`: calculate a B1 map with the Double Angle method (spin echo readout);
 * `getGratio.py`: calculate a weighted g-ratio map combining indices of myelin and axonal fraction;
-* `getJSONField.py`: extract values from a JSON file in NIFTI-JSON [BIDS](http://bids.neuroimaging.io) pairs
+* `getJSONField.py`: extract values from a JSON file in NIFTI-JSON [BIDS](http://bids.neuroimaging.io) pairs;
 * `getMTR.py`: calculate the magnetisation transfer ratio;
 * `getMTV.py`: calculate the macromolecular tissue volume with the method of the pseudo-proton densities;
 * `getT1IR.py`: fit a mono-exponential inversion recovery model to magnitude MRI data to estimate T1;
