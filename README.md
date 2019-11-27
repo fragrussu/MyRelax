@@ -38,5 +38,6 @@ Link to license [here](http://github.com/fragrussu/MyRelax/blob/master/LICENSE).
 
 # Acknowledgements
 MyRelax was developed as part of the [CDS-QuaMRI project](http://cds-quamri.eu), funded under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 634541.
-![CDSQuaMRI](http://github.com/fragrussu/MyRelax/blob/master/cdsquamri_logo.png)
+
+![CDSQuaMRI](https://github.com/fragrussu/MyRelax/blob/master/cdsquamri_logo.png)
 
