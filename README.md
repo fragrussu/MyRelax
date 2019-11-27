@@ -5,10 +5,10 @@ MyRelax tools process MRI scans in NIFTI format, as well as other MRI sequence p
 
 # MyRelax: dependencies
 You will need a Python 3 distribution such as [Anaconda](http://www.anaconda.com/distribution) as well as the following third party modules/packages:
-SciPy                      --> http://www.scipy.org/
-NumPy                      --> https://numpy.org/
-Nibabel                    --> http://nipy.org/nibabel/
-Scikit-learn               --> http://scikit-learn.org/stable/
+* [SciPy](http://www.scipy.org)
+* [NumPy](https://numpy.org)
+* [Nibabel](http://nipy.org/nibabel)
+* [Scikit-learn](http://scikit-learn.org/stable)
 
 
 # Installation
