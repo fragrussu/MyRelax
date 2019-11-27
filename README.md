@@ -33,4 +33,5 @@ python ./MyRelax/myrelax/getMTV.py --help
 If in your research you use MyRelax, please make sure to cite this paper:
 
 # License
-MyRelax is distributed under the BSD-2-Clause License. Copyright University College London, 2019.
+MyRelax is distributed under the BSD 2-Clause License, Copyright (c) 2019, University College London. All rights reserved.
+Link to license [here](http://github.com/fragrussu/MyRelax/blob/master/LICENSE).
