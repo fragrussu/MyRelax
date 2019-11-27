@@ -46,9 +46,9 @@ The following command line scripts are available:
 
 Each script has a manual. To print it, simply do
 ```
-python <SCRIPT> --help
+python <PATH/TO/SCRIPT> --help
 ```
-(for example, `python getMTR.py --help`).
+(for example, `python ./MyRelax/myrelax/getMTR.py --help`).
 
 # If you use MyRelax
 If in your research you use MyRelax, please make sure to cite this paper:
