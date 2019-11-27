@@ -44,7 +44,7 @@ The following command line scripts are available.
 * `getT2T2star.py`: to fit a mono-exponential decay model to magnitude MRI data to estimate T2 (T2*);
 * `getT2T2starBiexp.py`: to fit a bi-exponential decay model to magnitude MRI data to estimate two T2 (or T2*) constants and a signal fraction.
 
-Each script has a manual. To print it, simply type in your temrinal
+Each script has a manual. To print it, simply type in your terminal
 ```
 python </PATH/TO/SCRIPT> --help
 ```
