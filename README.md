@@ -35,7 +35,7 @@ The following command line scripts are available.
 * `getB1DAGE.py`: to calculate a B1 map with the Double Angle method (gradient echo readout);
 * `getB1DASE.py`: to calculate a B1 map with the Double Angle method (spin echo readout);
 * `getGratio.py`: to calculate a weighted g-ratio map combining indices of myelin and axonal fraction;
-* `getJSONField.py`: to extract the value of a field of interest from a JSON file (useful to create text files for fitting routines);
+* `getJSONField.py`: to extract the value of a field of interest from a JSON file (this command is useful to create text files storing TR, TE, flip angles, etc that can be passed to other MyRelax fitting routines);
 * `getMTR.py`: to calculate the magnetisation transfer ratio;
 * `getMTV.py`: to calculate the macromolecular tissue volume with the method of the pseudo-proton densities;
 * `getT1IR.py`: to fit a mono-exponential inversion recovery model to magnitude MRI data for T1 estimation;
@@ -51,7 +51,7 @@ python </PATH/TO/SCRIPT> --help
 (for example, `python ./MyRelax/myrelax/getMTR.py --help`).
 
 # If you use MyRelax
-If for your research you use MyRelax, please remember to cite this paper to acknowledge our work:
+If you use MyRelax in your research, please remember to cite our paper:
 
 # License
 MyRelax is distributed under the BSD 2-Clause License, Copyright (c) 2019, University College London. All rights reserved.
