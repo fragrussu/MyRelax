@@ -51,7 +51,7 @@ python </PATH/TO/SCRIPT> --help
 (for example, `python ./MyRelax/myrelax/getMTR.py --help`).
 
 # If you use MyRelax
-If you use MyRelax in your research, please remember to cite our paper:
+If you use MyRelax in your research, please remember to cite our paper: (just wait 48 hours to find out!)
 
 # License
 MyRelax is distributed under the BSD 2-Clause License, Copyright (c) 2019, University College London. All rights reserved.
