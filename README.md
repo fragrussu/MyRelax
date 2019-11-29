@@ -60,4 +60,4 @@ MyRelax is distributed under the BSD 2-Clause License, Copyright (c) 2019, Unive
 Link to license [here](http://github.com/fragrussu/MyRelax/blob/master/LICENSE).
 
 # Acknowledgements
-MyRelax was developed as part of the [CDS-QuaMRI project](http://cds-quamri.eu), funded under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 634541.
+The development of MyRelax was enabled by the [CDS-QuaMRI project](http://cds-quamri.eu), funded under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 634541. Support from the United Kingdom Engineering and Physical Sciences Research Council (EPSRC R006032/1 and M020533/1) is also acknowledged.
