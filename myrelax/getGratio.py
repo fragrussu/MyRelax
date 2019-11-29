@@ -88,7 +88,7 @@ def GRatiomap(*argv):
 		print('')
 		sys.exit(1)
 	
-	### Load MT off data and check for consistency
+	### Load AWF data and check for consistency
 	try:
 		awf_obj = nib.load(awf_nifti)
 	except:
@@ -197,10 +197,10 @@ if __name__ == "__main__":
 
 	### Deal with optional arguments
 	if isinstance(maskfile, str)==1:
-	    # A mask for MT calculation has been provided
+	    # A mask for g-ratio calculation has been provided
 	    maskrequest = True
 	else:
-	    # A mask for MT calculation has not been provided
+	    # A mask for g-ratio calculation has not been provided
 	    maskrequest = False
 
 
