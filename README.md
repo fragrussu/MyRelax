@@ -12,7 +12,7 @@ To run MyRelax you need a Python 3 distribution such as [Anaconda](http://www.an
 
 
 # MyRelax installation (Linux and MacOS)
-Gettins MyRelax is extremely easy.
+Getting MyRelax is extremely easy.
 
 1. Open a terminal;
 2. Navigate to your destination folder;
