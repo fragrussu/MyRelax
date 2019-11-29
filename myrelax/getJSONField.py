@@ -1,4 +1,4 @@
-### Voxel-wise calculation of MTR
+### Get MRI sequence parameters from JSON fields in BIDS data structures 
 #
 # Author: Francesco Grussu, University College London
 #		    CDSQuaMRI Project 
