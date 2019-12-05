@@ -14,7 +14,7 @@ To run MyRelax you need a Python 3 distribution such as [Anaconda](http://www.an
 
 
 # MyRelax download
-Getting MyRelax is extremely easy: cloning this repository is all you need to do. MyRelax scripts would be ready for you to run.
+Getting MyRelax is extremely easy: cloning this repository is all you need to do.
 
 
 If you use Linux or MacOs:
