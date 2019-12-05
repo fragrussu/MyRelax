@@ -13,8 +13,11 @@ To run MyRelax you need a Python 3 distribution such as [Anaconda](http://www.an
 * [Scikit-learn](http://scikit-learn.org/stable)
 
 
-# MyRelax installation (Linux and MacOS)
-Getting MyRelax is extremely easy.
+# MyRelax download
+Getting MyRelax is extremely easy: simply cloning this repository is all you need to do - MyRelax scripts would be ready for you to run.
+
+
+If you use Linux or MacOs:
 
 1. Open a terminal;
 2. Navigate to your destination folder;
@@ -34,8 +37,8 @@ python ./MyRelax/myrelax/getMTV.py --help
 # MyRelax tools
 The following command line scripts are available.
 * `getB1AFI.py`: to calculate a B1 map with the [Actual Flip Angle Imaging method](http://doi.org/10.1002/mrm.21120);
-* `getB1DAGE.py`: to calculate a B1 map with the [Double Angle method](https://doi.org/10.1006/jmra.1993.1133)(gradient echo readout);
-* `getB1DASE.py`: to calculate a B1 map with the [Double Angle method](https://doi.org/10.1006/jmra.1993.1133)(spin echo readout);
+* `getB1DAGE.py`: to calculate a B1 map with the [Double Angle method](https://doi.org/10.1006/jmra.1993.1133) (gradient echo readout);
+* `getB1DASE.py`: to calculate a B1 map with the [Double Angle method](https://doi.org/10.1006/jmra.1993.1133) (spin echo readout);
 * `getGratio.py`: to calculate a [weighted g-ratio](http://doi.org/10.1016/j.neuroimage.2015.05.023) map combining indices of myelin and axonal fraction;
 * `getJSONField.py`: to extract the value of a field of interest from a JSON file (this command is useful to create text files storing TR, TE, flip angles, etc that can be passed to other MyRelax fitting routines);
 * `getMTR.py`: to calculate the [magnetisation transfer ratio](http://doi.org/10.1002/ana.20202);
