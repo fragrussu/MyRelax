@@ -33,13 +33,13 @@ python ./MyRelax/myrelax/getMTV.py --help
 
 # MyRelax tools
 The following command line scripts are available.
-* `getB1AFI.py`: to calculate a B1 map with the Actual Flip Angle Imaging method;
-* `getB1DAGE.py`: to calculate a B1 map with the Double Angle method (gradient echo readout);
-* `getB1DASE.py`: to calculate a B1 map with the Double Angle method (spin echo readout);
-* `getGratio.py`: to calculate a weighted g-ratio map combining indices of myelin and axonal fraction;
+* `getB1AFI.py`: to calculate a B1 map with the [Actual Flip Angle Imaging method](http://doi.org/10.1002/mrm.21120);
+* `getB1DAGE.py`: to calculate a B1 map with the [Double Angle method](https://doi.org/10.1006/jmra.1993.1133)(gradient echo readout);
+* `getB1DASE.py`: to calculate a B1 map with the [Double Angle method](https://doi.org/10.1006/jmra.1993.1133)(spin echo readout);
+* `getGratio.py`: to calculate a [weighted g-ratio](http://doi.org/10.1016/j.neuroimage.2015.05.023) map combining indices of myelin and axonal fraction;
 * `getJSONField.py`: to extract the value of a field of interest from a JSON file (this command is useful to create text files storing TR, TE, flip angles, etc that can be passed to other MyRelax fitting routines);
 * `getMTR.py`: to calculate the magnetisation transfer ratio;
-* `getMTV.py`: to calculate the macromolecular tissue volume with the method of the pseudo-proton densities;
+* `getMTV.py`: to calculate the macromolecular tissue volume with the method of the [pseudo-proton densities](http://doi.org/10.1016/j.neuroimage.2012.06.076);
 * `getT1IR.py`: to fit a mono-exponential inversion recovery model to magnitude MRI data for T1 estimation;
 * `getT1VFA.py`: to fit a mono-exponential variable flip angle model to magnitude MRI data for T1 estimation;
 * `getT2Prime.py`: to calculate T2' from T2 and T2*;
