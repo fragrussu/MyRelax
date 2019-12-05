@@ -40,11 +40,11 @@ The following command line scripts are available.
 * `getJSONField.py`: to extract the value of a field of interest from a JSON file (this command is useful to create text files storing TR, TE, flip angles, etc that can be passed to other MyRelax fitting routines);
 * `getMTR.py`: to calculate the magnetisation transfer ratio;
 * `getMTV.py`: to calculate the macromolecular tissue volume with the method of the [pseudo-proton densities](http://doi.org/10.1016/j.neuroimage.2012.06.076);
-* `getT1IR.py`: to fit a mono-exponential inversion recovery model to magnitude MRI data for T1 estimation;
-* `getT1VFA.py`: to fit a mono-exponential variable flip angle model to magnitude MRI data for T1 estimation;
-* `getT2Prime.py`: to calculate T2' from T2 and T2*;
-* `getT2T2star.py`: to fit a mono-exponential decay model to magnitude MRI data for T2 (T2*) estimation;
-* `getT2T2starBiexp.py`: to fit a bi-exponential decay model to magnitude MRI data, obtaining estimates of 2 distinct T2 (or T2*) constants and of their relative signal fractions.
+* `getT1IR.py`: to fit a mono-exponential inversion recovery model to magnitude MRI data for [T1 estimation](http://doi.org/10.1002/mrm.25135);
+* `getT1VFA.py`: to fit a mono-exponential variable flip angle model to magnitude MRI data for [T1 estimation](http://doi.org/10.1002/mrm.25135);
+* `getT2Prime.py`: to calculate [T2'](http://doi.org/10.1148/radiol.2483071602) from [T2 and T2*](http://doi.org/10.1097/RMR.0b013e31821e56d8);
+* `getT2T2star.py`: to fit a mono-exponential decay model to magnitude MRI data for [T2 or T2*](http://doi.org/10.1097/RMR.0b013e31821e56d8) estimation;
+* `getT2T2starBiexp.py`: to fit a [bi-exponential](http://doi.org/10.1002/mrm.1910350212) decay model to magnitude MRI data, obtaining estimates of 2 distinct T2 (or T2*) constants and of their relative signal fractions.
 
 You can run MyRelax scripts from command line, for instance using a Bash or C shell. Some scripts support multi-core analyses (option `--ncpu`; no GPU at the moment though). Importantly, each tool has a manual: to print it, simply type in your terminal
 ```
