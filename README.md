@@ -48,7 +48,7 @@ The following command line scripts are available.
 * `getT2Prime.py`: to calculate [T2'](http://doi.org/10.1148/radiol.2483071602) from [T2 and T2*](http://doi.org/10.1097/RMR.0b013e31821e56d8);
 * `getT2T2star.py`: to fit a mono-exponential decay model to magnitude MRI data for [T2 or T2*](http://doi.org/10.1097/RMR.0b013e31821e56d8) estimation;
 * `getT2T2starBiexp.py`: to fit a [bi-exponential](http://doi.org/10.1002/mrm.1910350212) decay model to magnitude MRI data, obtaining estimates of 2 distinct T2 (or T2*) constants and of their relative signal fractions;
-* `GetPDT2T1TurboSpinEcho.py`: to estimate quantitative proton density, T1 and T2 from 3 spin echo scans performed at two different TEs and one different TR.
+* `getPDT2T1TurboSpinEcho.py`: to estimate quantitative proton density, T1 and T2 from 3 spin echo scans performed at two different TEs and one different TR.
 
 You can run MyRelax scripts from command line, for instance using a Bash or C shell. Some scripts support multi-core analyses (option `--ncpu`; no GPU at the moment though). Importantly, each tool has a manual: to print it, simply type in your terminal
 ```
