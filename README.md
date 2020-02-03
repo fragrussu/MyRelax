@@ -35,7 +35,7 @@ python ./MyRelax/myrelax/getMTV.py --help
 ```
 
 # MyRelax tools
-The following command line scripts are available.
+The following command line scripts [are available](http://github.com/fragrussu/MyRelax/tree/master/myrelax).
 * `getB1AFI.py`: to calculate a B1 map with the [Actual Flip Angle Imaging method](http://doi.org/10.1002/mrm.21120);
 * `getB1DAGE.py`: to calculate a B1 map with the [Double Angle method](https://doi.org/10.1006/jmra.1993.1133) (gradient echo readout);
 * `getB1DASE.py`: to calculate a B1 map with the [Double Angle method](https://doi.org/10.1006/jmra.1993.1133) (spin echo readout);
