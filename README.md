@@ -57,7 +57,7 @@ python </PATH/TO/SCRIPT> --help
 (for example, `python ./MyRelax/myrelax/getMTR.py --help`).
 
 # If you use MyRelax
-If you use MyRelax in your research, please remember to cite our [paper](http://doi.org/10.1016/j.neuroimage.2020.116884):
+If you use MyRelax in your research, please remember to cite our paper:
 
 "Multi-parametric quantitative in vivo spinal cord MRI with unified signal readout and image denoising". Grussu F, Battiston M, Veraart J, Schneider T, Cohen-Adad J, Shepherd TM, Alexander DC, Fieremans E, Novikov DS, Gandini Wheeler-Kingshott CAM; NeuroImage 2020 (DOI: 10.1016/j.neuroimage.2020.116884). Link to paper [here](http://doi.org/10.1016/j.neuroimage.2020.116884).
 
