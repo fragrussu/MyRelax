@@ -11,6 +11,7 @@ To run MyRelax you need a Python 3 distribution such as [Anaconda](http://www.an
 * [NumPy](https://numpy.org)
 * [Nibabel](http://nipy.org/nibabel)
 * [Scikit-learn](http://scikit-learn.org/stable)
+* [Scikit-image](http://scikit-image.org)
 
 
 # MyRelax download
