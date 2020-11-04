@@ -37,19 +37,19 @@ python ./MyRelax/myrelax/getMTV.py --help
 
 # MyRelax tools
 The following command line scripts [are available](http://github.com/fragrussu/MyRelax/tree/master/myrelax).
-* `getB1AFI.py`: to calculate a B1 map with the [Actual Flip Angle Imaging method](http://doi.org/10.1002/mrm.21120);
-* `getB1DAGE.py`: to calculate a B1 map with the [Double Angle method](https://doi.org/10.1006/jmra.1993.1133) (gradient echo readout);
-* `getB1DASE.py`: to calculate a B1 map with the [Double Angle method](https://doi.org/10.1006/jmra.1993.1133) (spin echo readout);
-* `getGratio.py`: to calculate a [weighted g-ratio](http://doi.org/10.1016/j.neuroimage.2015.05.023) map combining indices of myelin and axonal fraction;
-* `getJSONField.py`: to extract the value of a field of interest from a JSON file (this command is useful to create text files storing TR, TE, flip angles, etc that can be passed to other MyRelax fitting routines);
-* `getMTR.py`: to calculate the [magnetisation transfer ratio](http://doi.org/10.1002/ana.20202);
-* `getMTV.py`: to calculate the macromolecular tissue volume with the method of the [pseudo-proton densities](http://doi.org/10.1016/j.neuroimage.2012.06.076);
-* `getT1IR.py`: to fit a mono-exponential inversion recovery model to magnitude MRI data for [T1 estimation](http://doi.org/10.1002/mrm.25135);
-* `getT1VFA.py`: to fit a mono-exponential variable flip angle model to magnitude MRI data for [T1 estimation](http://doi.org/10.1002/mrm.25135);
-* `getT2Prime.py`: to calculate [T2'](http://doi.org/10.1148/radiol.2483071602) from [T2 and T2*](http://doi.org/10.1097/RMR.0b013e31821e56d8);
-* `getT2T2star.py`: to fit a mono-exponential decay model to magnitude MRI data for [T2 or T2*](http://doi.org/10.1097/RMR.0b013e31821e56d8) estimation;
-* `getT2T2starBiexp.py`: to fit a [bi-exponential](http://doi.org/10.1002/mrm.1910350212) decay model to magnitude MRI data, obtaining estimates of 2 distinct T2 (or T2*) constants and of their relative signal fractions;
-* `getPDT2T1TurboSpinEcho.py`: to estimate quantitative proton density, T1 and T2 from 3 spin echo scans performed at two different TEs and one different TR.
+* [`getB1AFI.py`](https://github.com/fragrussu/MyRelax/blob/master/myrelax/getB1AFI.py): to calculate a B1 map with the [Actual Flip Angle Imaging method](http://doi.org/10.1002/mrm.21120);
+* [`getB1DAGE.py`](https://github.com/fragrussu/MyRelax/blob/master/myrelax/getB1DAGE.py): to calculate a B1 map with the [Double Angle method](https://doi.org/10.1006/jmra.1993.1133) (gradient echo readout);
+* [`getB1DASE.py`](https://github.com/fragrussu/MyRelax/blob/master/myrelax/getB1DASE.py): to calculate a B1 map with the [Double Angle method](https://doi.org/10.1006/jmra.1993.1133) (spin echo readout);
+* [`getGratio.py`](https://github.com/fragrussu/MyRelax/blob/master/myrelax/getGratio.py): to calculate a [weighted g-ratio](http://doi.org/10.1016/j.neuroimage.2015.05.023) map combining indices of myelin and axonal fraction;
+* [`getJSONField.py`](https://github.com/fragrussu/MyRelax/blob/master/myrelax/getJSONField.py): to extract the value of a field of interest from a JSON file (this command is useful to create text files storing TR, TE, flip angles, etc that can be passed to other MyRelax fitting routines);
+* [`getMTR.py`](https://github.com/fragrussu/MyRelax/blob/master/myrelax/getMTR.py): to calculate the [magnetisation transfer ratio](http://doi.org/10.1002/ana.20202);
+* [`getMTV.py`](https://github.com/fragrussu/MyRelax/blob/master/myrelax/getMTV.py): to calculate the macromolecular tissue volume with the method of the [pseudo-proton densities](http://doi.org/10.1016/j.neuroimage.2012.06.076);
+* [`getT1IR.py`](https://github.com/fragrussu/MyRelax/blob/master/myrelax/getT1IR.py): to fit a mono-exponential inversion recovery model to magnitude MRI data for [T1 estimation](http://doi.org/10.1002/mrm.25135);
+* [`getT1VFA.py`](https://github.com/fragrussu/MyRelax/blob/master/myrelax/getT1VFA.py): to fit a mono-exponential variable flip angle model to magnitude MRI data for [T1 estimation](http://doi.org/10.1002/mrm.25135);
+* [`getT2Prime.py`](https://github.com/fragrussu/MyRelax/blob/master/myrelax/getT2Prime.py): to calculate [T2'](http://doi.org/10.1148/radiol.2483071602) from [T2 and T2*](http://doi.org/10.1097/RMR.0b013e31821e56d8);
+* [`getT2T2star.py`](https://github.com/fragrussu/MyRelax/blob/master/myrelax/getT2T2star.py): to fit a mono-exponential decay model to magnitude MRI data for [T2 or T2*](http://doi.org/10.1097/RMR.0b013e31821e56d8) estimation;
+* [`getT2T2starBiexp.py`](https://github.com/fragrussu/MyRelax/blob/master/myrelax/getT2T2starBiexp.py): to fit a [bi-exponential](http://doi.org/10.1002/mrm.1910350212) decay model to magnitude MRI data, obtaining estimates of 2 distinct T2 (or T2*) constants and of their relative signal fractions;
+* [`getPDT2T1TurboSpinEcho.py`](https://github.com/fragrussu/MyRelax/blob/master/myrelax/getPDT2T1TurboSpinEcho.py): to estimate quantitative proton density, T1 and T2 from 3 spin echo scans performed at two different TEs and one different TR.
 
 You can run MyRelax scripts from command line, for instance using a Bash or C shell. Some scripts support multi-core analyses (option `--ncpu`; no GPU at the moment though). Importantly, each tool has a manual: to print it, simply type in your terminal
 ```
