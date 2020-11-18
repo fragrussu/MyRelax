@@ -60,23 +60,23 @@ def AnalysePDT1T2(*argv):
 
 	# Load data
 	scan1 = nib.load(Scan1_file)
-	scan1_data = scan1.get_data()
+	scan1_data = scan1.get_fdata()
 	imgsize = scan1_data.shape
 	scan1_data = np.array(scan1_data,'float64')
 	imgsize = np.array(imgsize)
 
 	scan2 = nib.load(Scan2_file)
-	scan2_data = scan2.get_data()
+	scan2_data = scan2.get_fdata()
 	scan2_data = np.array(scan2_data,'float64')
 
 	scan3 = nib.load(Scan3_file)
-	scan3_data = scan3.get_data()
+	scan3_data = scan3.get_fdata()
 	scan3_data = np.array(scan3_data,'float64')
 
 	if Nargv==10:
 		mask_file = argv[9]
 		mask = nib.load(mask_file)
-		mask_data = mask.get_data()
+		mask_data = mask.get_fdata()
 		mask_data = np.array(mask_data,'float64')
 	else:
 		mask_data = np.ones(imgsize[0:3],'float64')

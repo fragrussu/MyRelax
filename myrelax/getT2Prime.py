@@ -72,7 +72,7 @@ def T2Primemap(*argv):
 		print('ERROR: the 3D input T2 map {} does not exist or is not in NIFTI format. Exiting with 1.'.format(t2_nifti))	 			 
 		print('')
 		sys.exit(1)
-	t2_data = t2_obj.get_data()
+	t2_data = t2_obj.get_fdata()
 	imgsize = t2_data.shape
 	imgsize = np.array(imgsize)
 	if imgsize.size!=3:
@@ -89,7 +89,7 @@ def T2Primemap(*argv):
 		print('ERROR: the 3D input T2star map {} does not exist or is not in NIFTI format. Exiting with 1.'.format(t2star_nifti))	   			 
 		print('')
 		sys.exit(1)
-	t2star_data = t2star_obj.get_data()
+	t2star_data = t2star_obj.get_fdata()
 	t2_header = t2_obj.header
 	t2_affine = t2_header.get_best_affine()
 	t2_dims = t2_obj.shape
@@ -121,7 +121,7 @@ def T2Primemap(*argv):
 			print('')
 			sys.exit(1)
 		# Make sure that the mask geometry matches that of the other files
-		mask_data = mask_obj.get_data()
+		mask_data = mask_obj.get_fdata()
 		mask_size = mask_data.shape
 		mask_size = np.array(mask_size) 
 		mask_header = mask_obj.header

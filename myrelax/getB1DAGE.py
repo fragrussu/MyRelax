@@ -77,7 +77,7 @@ def DAGE(*argv):
 		print('ERROR: the 3D gradient echo NIFTI {} does not exist or is not in NIFTI format. Exiting with 1.'.format(scan1_nifti))
 		print('')
 		sys.exit(1)
-	scan1_data = scan1_obj.get_data()
+	scan1_data = scan1_obj.get_fdata()
 	imgsize = scan1_data.shape
 	imgsize = np.array(imgsize)
 	if imgsize.size!=3:
@@ -94,7 +94,7 @@ def DAGE(*argv):
 		print('ERROR: the 3D gradient echo NIFTI {} does not exist or is not in NIFTI format. Exiting with 1.'.format(scan2_nifti))
 		print('')
 		sys.exit(1)
-	scan2_data = scan2_obj.get_data()
+	scan2_data = scan2_obj.get_fdata()
 	scan1_header = scan1_obj.header
 	scan1_affine = scan1_header.get_best_affine()
 	scan1_dims = scan1_obj.shape
@@ -148,7 +148,7 @@ def DAGE(*argv):
 			print('')
 			sys.exit(1)
 		# Make sure that the mask geometry matches that of the other files
-		mask_data = mask_obj.get_data()
+		mask_data = mask_obj.get_fdata()
 		mask_size = mask_data.shape
 		mask_size = np.array(mask_size) 
 		mask_header = mask_obj.header

@@ -75,7 +75,7 @@ def MTRmap(*argv):
 		print('ERROR: the 3D input MT "on" file {} does not exist or is not in NIFTI format. Exiting with 1.'.format(mton_nifti))	 			 
 		print('')
 		sys.exit(1)
-	mton_data = mton_obj.get_data()
+	mton_data = mton_obj.get_fdata()
 	imgsize = mton_data.shape
 	imgsize = np.array(imgsize)
 	if imgsize.size!=3:
@@ -92,7 +92,7 @@ def MTRmap(*argv):
 		print('ERROR: the 3D input MT "off" file {} does not exist or is not in NIFTI format. Exiting with 1.'.format(mtoff_nifti))	   			 
 		print('')
 		sys.exit(1)
-	mtoff_data = mtoff_obj.get_data()
+	mtoff_data = mtoff_obj.get_fdata()
 	mton_header = mton_obj.header
 	mton_affine = mton_header.get_best_affine()
 	mton_dims = mton_obj.shape
@@ -124,7 +124,7 @@ def MTRmap(*argv):
 			print('')
 			sys.exit(1)
 		# Make sure that the mask geometry matches that of the other files
-		mask_data = mask_obj.get_data()
+		mask_data = mask_obj.get_fdata()
 		mask_size = mask_data.shape
 		mask_size = np.array(mask_size) 
 		mask_header = mask_obj.header

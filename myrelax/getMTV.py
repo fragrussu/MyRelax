@@ -91,7 +91,7 @@ def MTVmap(sig_file, t1_file, txy_file, tissue_file, water_file, te_file, out_ba
 		print('ERROR: the 3D T2/T2*-weighted signal file {} does not exist or is not in NIFTI format. Exiting with 1.'.format(sig_file))
 		print('')
 		sys.exit(1)
-	sig_data = sig_obj.get_data()
+	sig_data = sig_obj.get_fdata()
 	imgsize = sig_data.shape
 	imgsize = np.array(imgsize)
 	sig_header = sig_obj.header
@@ -117,7 +117,7 @@ def MTVmap(sig_file, t1_file, txy_file, tissue_file, water_file, te_file, out_ba
 		print('ERROR: the 3D T1 file {} does not exist or is not in NIFTI format. Exiting with 1.'.format(t1_file))
 		print('')
 		sys.exit(1)
-	t1_data = t1_obj.get_data()
+	t1_data = t1_obj.get_fdata()
 	t1_header = t1_obj.header
 	t1_affine = t1_header.get_best_affine()
 	t1_dims = t1_obj.shape
@@ -144,7 +144,7 @@ def MTVmap(sig_file, t1_file, txy_file, tissue_file, water_file, te_file, out_ba
 		print('ERROR: the 3D T2/T2* file {} does not exist or is not in NIFTI format. Exiting with 1.'.format(txy_file))
 		print('')
 		sys.exit(1)
-	txy_data = txy_obj.get_data()
+	txy_data = txy_obj.get_fdata()
 	txy_header = txy_obj.header
 	txy_affine = txy_header.get_best_affine()
 	txy_dims = txy_obj.shape
@@ -171,7 +171,7 @@ def MTVmap(sig_file, t1_file, txy_file, tissue_file, water_file, te_file, out_ba
 		print('ERROR: the 3D tissue mask {} does not exist or is not in NIFTI format. Exiting with 1.'.format(tissue_file))
 		print('')
 		sys.exit(1)
-	tissue_data = tissue_obj.get_data()
+	tissue_data = tissue_obj.get_fdata()
 	tissue_header = tissue_obj.header
 	tissue_affine = tissue_header.get_best_affine()
 	tissue_dims = tissue_obj.shape
@@ -200,7 +200,7 @@ def MTVmap(sig_file, t1_file, txy_file, tissue_file, water_file, te_file, out_ba
 		print('ERROR: the 3D water mask {} does not exist or is not in NIFTI format. Exiting with 1.'.format(water_file))
 		print('')
 		sys.exit(1)
-	water_data = water_obj.get_data()
+	water_data = water_obj.get_fdata()
 	water_header = water_obj.header
 	water_affine = water_header.get_best_affine()
 	water_dims = water_obj.shape

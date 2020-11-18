@@ -454,7 +454,7 @@ def T1FitVFA(*argv, **kwargs):
 		sys.exit(1)
 	
 	# Get image dimensions and convert to float64
-	vfa_data = vfa_obj.get_data()
+	vfa_data = vfa_obj.get_fdata()
 	imgsize = vfa_data.shape
 	vfa_data = np.array(vfa_data,'float64')
 	imgsize = np.array(imgsize)
@@ -523,7 +523,7 @@ def T1FitVFA(*argv, **kwargs):
 		mask_header = mask_obj.header
 		mask_affine = mask_header.get_best_affine()			
 		# Make sure the mask is a 3D file
-		mask_data = mask_obj.get_data()
+		mask_data = mask_obj.get_fdata()
 		masksize = mask_data.shape
 		masksize = np.array(masksize)
 		if masksize.size!=3:
@@ -573,7 +573,7 @@ def T1FitVFA(*argv, **kwargs):
 		b1_header = b1map_obj.header
 		b1_affine = b1_header.get_best_affine()
 		# Make sure the B1 map is a 3D file
-		b1map_data = b1map_obj.get_data()
+		b1map_data = b1map_obj.get_fdata()
 		b1size = b1map_data.shape
 		b1size = np.array(b1size)
 		if b1size.size!=3:

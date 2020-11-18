@@ -436,7 +436,7 @@ def TxyFitME(*argv):
 		sys.exit(1)
 	
 	# Get image dimensions and convert to float64
-	sig_data = sig_obj.get_data()
+	sig_data = sig_obj.get_fdata()
 	imgsize = sig_data.shape
 	sig_data = np.array(sig_data,'float64')
 	imgsize = np.array(imgsize)
@@ -484,7 +484,7 @@ def TxyFitME(*argv):
 		mask_header = mask_obj.header
 		mask_affine = mask_header.get_best_affine()			
 		# Make sure the mask is a 3D file
-		mask_data = mask_obj.get_data()
+		mask_data = mask_obj.get_fdata()
 		masksize = mask_data.shape
 		masksize = np.array(masksize)
 		if masksize.size!=3:

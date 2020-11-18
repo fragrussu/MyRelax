@@ -79,7 +79,7 @@ def GRatiomap(*argv):
 		print('ERROR: the 3D input MVF file {} does not exist or is not in NIFTI format. Exiting with 1.'.format(mvf_nifti))	 			 
 		print('')
 		sys.exit(1)
-	mvf_data = mvf_obj.get_data()
+	mvf_data = mvf_obj.get_fdata()
 	imgsize = mvf_data.shape
 	imgsize = np.array(imgsize)
 	if imgsize.size!=3:
@@ -96,7 +96,7 @@ def GRatiomap(*argv):
 		print('ERROR: the 3D input AWF file {} does not exist or is not in NIFTI format. Exiting with 1.'.format(awf_nifti))	   			 
 		print('')
 		sys.exit(1)
-	awf_data = awf_obj.get_data()
+	awf_data = awf_obj.get_fdata()
 	mvf_header = mvf_obj.header
 	mvf_affine = mvf_header.get_best_affine()
 	mvf_dims = mvf_obj.shape
@@ -128,7 +128,7 @@ def GRatiomap(*argv):
 			print('')
 			sys.exit(1)
 		# Make sure that the mask geometry matches that of the other files
-		mask_data = mask_obj.get_data()
+		mask_data = mask_obj.get_fdata()
 		mask_size = mask_data.shape
 		mask_size = np.array(mask_size) 
 		mask_header = mask_obj.header
