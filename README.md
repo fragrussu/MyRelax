@@ -1,5 +1,5 @@
 # MyRelax overview
-"Myelin and Relaxation" (MyRelax) is a collection of command line scripts written in Python 3 for myelin and relaxometry MRI. MyRelax was developed as part of the [CDS-QuaMRI project](http://cds-quamri.eu), funded under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 634541.
+"Myelin and Relaxation" (MyRelax) is a collection of command line scripts written in Python 3 for myelin and relaxometry MRI. MyRelax was developed as part of the [CDS-QuaMRI project](https://cordis.europa.eu/project/id/634541), funded under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 634541.
 
 ![CDSQuaMRI](https://github.com/fragrussu/MyRelax/blob/master/cdsquamri_logo.png)
 
@@ -68,4 +68,4 @@ MyRelax is distributed under the BSD 2-Clause License, Copyright (c) 2019 and 20
 Link to license [here](http://github.com/fragrussu/MyRelax/blob/master/LICENSE).
 
 # Acknowledgements
-The development of MyRelax was enabled by the [CDS-QuaMRI project](http://cds-quamri.eu), funded under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 634541. Support from the United Kingdom Engineering and Physical Sciences Research Council (EPSRC R006032/1 and M020533/1) is also acknowledged.
+The development of MyRelax was enabled by the [CDS-QuaMRI project](https://cordis.europa.eu/project/id/634541), funded under the European Union’s Horizon 2020 research and innovation programme under grant agreement No. 634541. Support from the United Kingdom Engineering and Physical Sciences Research Council (EPSRC R006032/1 and M020533/1) is also acknowledged.
