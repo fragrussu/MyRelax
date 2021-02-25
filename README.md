@@ -8,7 +8,7 @@
 MyRelax tools process MRI scans in NIFTI format, as well as other MRI sequence parameters that are passed in the form of text files. These can be readily obtained from DICOM fields or from the JSON files associated to NIFTIs according to the Brain Imaging Data Structure ([BIDS](http://bids.neuroimaging.io)).
 
 # MyRelax releases
-[Here](https://github.com/fragrussu/MyRelax/releases) you can found MyRelax releases. Latest release is 1.0.0, available as a Zenodo repository (doi: 10.5281/zenodo.4561898).
+[Here](https://github.com/fragrussu/MyRelax/releases) you can found MyRelax releases. Latest release is 1.0.0, available as a Zenodo repository (doi: [10.5281/zenodo.4561898](https://doi.org/10.5281/zenodo.4561898)).
 
 # MyRelax dependencies
 To run MyRelax you need a Python 3 distribution such as [Anaconda](http://www.anaconda.com/distribution). Additionally, you need the following third party modules/packages:
