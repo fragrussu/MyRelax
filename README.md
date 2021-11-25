@@ -69,7 +69,8 @@ If you use MyRelax in your research, please remember to cite our paper:
 
 # License
 MyRelax is distributed under the BSD 2-Clause License, Copyright (c) 2019 and 2020, University College London. All rights reserved.
-The use of MyRelax MUST also comply with the individual licenses of all of its dependencies. 
+
+**The use of MyRelax MUST also comply with the individual licenses of all of its dependencies.** 
 
 Link to license [here](http://github.com/fragrussu/MyRelax/blob/master/LICENSE).
 
