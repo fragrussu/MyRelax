@@ -233,7 +233,8 @@ def FitSlice(data):
 					sig_voxel = np.array(sig_voxel)           # Convert to array
 						
 					# Grid search
-					param_init, fobj_init = GridSearch(time_value,sig_voxel) 
+					param_init, fobj_init = GridSearch(time_value,sig_voxel)
+					param_init[0] = np.abs(param_init[0])
 					             
 						
 					# Minimise the objective function numerically
