@@ -236,10 +236,11 @@ def TxyFitMEslice(data):
 					sig_voxel = np.array(sig_voxel)           # Convert to array
 
 					# Grid search
-					param_init, fobj_init = MEGridSearch(te_value,sig_voxel)          
+					param_init, fobj_init = MEGridSearch(te_value,sig_voxel)
+					param_init[0] = np.abs(param_init[0])
 							
 					# Minimise the objective function numerically
-					param_bound = ((0,2*param_init[0]),(0,4500),)                      # Range for S0 and T1
+					param_bound = ((0,5*param_init[0]),(0,5000),)                      # Range for S0 and T1
 					modelfit = minimize(MEFobj, param_init, method='L-BFGS-B', args=tuple([te_value,sig_voxel]), bounds=param_bound)
 					fit_exit = modelfit.success
 					fobj_fit = modelfit.fun
