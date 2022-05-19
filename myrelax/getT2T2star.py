@@ -332,7 +332,7 @@ def TxyFitMEslice(data):
 							fobj_fit = modelfit.fun
 
 							# Get fitting output if non-linear optimisation was successful and if succeeded in providing a smaller value of the objective function as compared to the grid search
-							if fit_exit==True and fobj_fit<fobj_init:
+							if fit_exit==True:
 								param_fit = modelfit.x
 								s0_voxel = param_fit[0]
 								txy_voxel = param_fit[1]
